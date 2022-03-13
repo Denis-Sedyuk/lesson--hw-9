@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: raleway, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 50px;
+}
+
+.why {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.why__title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.why__image {
+  margin-bottom: 40px;
+  width: 170px;
+}
+
+.why__text {
+  margin-bottom: 110px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+}
+
+.about {
+  display: flex;
+  flex-basis: 33.33%;
+}
+
+.about__column {
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__title {
+  font-family: Open Sans;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 40px 50px;
+}
+
+.about__text {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .why__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .why__image {
+    margin-bottom: 32px;
+    width: 142px;
+  }
+
+  .why__text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 65px;
+  }
+
+  .about {
+    display: flex;
+  }
+
+  .about__image {
+    width: 79.55px;
+  }
+
+  .about__title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .why__title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .why__image {
+    margin-bottom: 25px;
+  }
+
+  .why__text {
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 83px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__image {
+    width: 79.55px;
+  }
+
+  .about__title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 43px;
+  }
+}
